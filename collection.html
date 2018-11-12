@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mtg DB: My Collection</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    </head>
+    <body>
+
+        <h1> Mtg Collection Manager </h1>
+            
+
+<!-- Navigator Section>--------------------------------------------------------------------------------->
+            <nav>
+                <ul id="menu">
+                    <li class="market">
+                        Market
+                    </li>
+                    <li class="collection" style="background-color: #bc2005">
+                        My Collection
+                    </li>
+                    <li class="transactions">
+                        Transactions
+                    </li>
+                    <li class="cardViewer">
+                        Card Viewer
+                    </li>
+                    <li class="extra">
+                        More Info
+                    </li>
+                    <li class="login">
+                        Login / Register
+                    </li>
+                    <button id="logOut" class = "buttons">Log Out</button>
+                    <user id="currentUser"> </user>
+                </ul>
+            </nav>
+<!-- Navigator Section>--------------------------------------------------------------------------------->
+
+        <div>
+            <fieldset class ="filterContainer">
+                <legend>Add cards to your collection here!</legend>
+                <input type="number" id="addCardId">    Insert the ID of a card.
+                <br>
+                <button id="addCardButton" class = "buttons">Add Card</button>
+            </fieldset>
+        </div>
+
+        <div id = "collectionContainer">
+        </div>
+
+<!-- Scripts>--------------------------------------------------------------------------------->
+        <script src="./js/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/collection.js"></script>
+    </body>
+</html>   

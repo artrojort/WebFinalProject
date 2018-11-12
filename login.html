@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mtg DB: Login/Register</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    </head>
+    <body>
+
+        <h1> Mtg Collection Manager </h1>
+            
+
+<!-- Navigator Section>--------------------------------------------------------------------------------->
+            <nav>
+                <ul id="menu">
+                    <li class="market">
+                        Market
+                    </li>
+                    <li class="collection">
+                        My Collection
+                    </li>
+                    <li class="transactions">
+                        Transactions
+                    </li>
+                    <li class="cardViewer">
+                        Card Viewer
+                    </li>
+                    <li class="extra">
+                        More Info
+                    </li>
+                    <li class="login"  style="background-color: #bc2005">
+                        Login / Register
+                    </li>
+                    <button id="logOut" class = "buttons">Log Out</button>
+                    <user id="currentUser"> </user>
+                </ul>
+            </nav>
+
+<!-- Content Section>--------------------------------------------------------------------------------->
+			<form>
+				<div>
+				<fieldset id="loginform">
+					<legend>Log In</legend>
+					Username: 
+					<br>
+					<input id="loginName" type="text"/>
+					<span class="errorMessage hideElement" id="errorLoginName">
+						Empty field!
+					</span>
+					<br>
+					Password: 
+					<br>
+					<input id="loginPassword" type="password"/> 
+					<span class="errorMessage hideElement" id="errorLoginPassword">
+						Empty field!
+					</span>
+					<br>
+					<input type="checkbox" id="remember"/> Remember Me 
+					<br>
+					<button type="button" id="loginFormButton" class="buttons">
+						Login
+					</button>
+				</fieldset>
+				</div>
+			</form>
+			<form>
+				<div>
+				<fieldset id="registerform">
+					<legend>Registration</legend>
+					Username: 
+					<br>
+					<input id="userName" type="text" class="register" />
+					<span class="errorMessage hideElement" id="errorUserName">
+						This info is required. 
+					</span>
+					<br>
+					email: 
+					<br>
+					<input id="userEmail" type="text" class="register" />
+					<span class="errorMessage hideElement" id ="errorUserEmail">
+						This info is required. 
+					</span>
+					<br>
+					Password: 
+					<br>
+					<input id="userPassword" type="password" class="register" />
+					<span class="errorMessage hideElement" id ="errorUserPassword">
+						This info is required. 
+					</span>
+					<br>
+					Password confirmation: 
+					<br>
+					<input id="userPasswordC" type="password"/>
+					<span class="errorMessage hideElement" id ="errorUserPasswordC">
+						This info is required. 
+					</span>
+					<br>
+					<br>
+					<button type="button" id="registerFormButton" class="buttons">Register</button>
+				</fieldset>
+				</div>
+			</form>
+
+
+<!-- Scripts>--------------------------------------------------------------------------------->
+        <script src="./js/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+    </body>
+</html>   
+				

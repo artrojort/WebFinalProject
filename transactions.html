@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mtg DB: Transactions</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    </head>
+    <body>
+
+        <h1> Mtg Collection Manager </h1>
+            
+
+<!-- Navigator Section>--------------------------------------------------------------------------------->
+            <nav>
+                <ul id="menu">
+                    <li class="market">
+                        Market
+                    </li>
+                    <li class="collection">
+                        My Collection
+                    </li>
+                    <li class="transactions" style="background-color: #bc2005">
+                        Transactions
+                    </li>
+                    <li class="cardViewer">
+                        Card Viewer
+                    </li>
+                    <li class="extra">
+                        More Info
+                    </li>
+                    <li class="login">
+                        Login / Register
+                    </li>
+                    <button id="logOut" class = "buttons">Log Out</button>
+                    <user id="currentUser"> </user>
+                </ul>
+            </nav>
+
+<!-- Content Section>--------------------------------------------------------------------------------->
+        <div>
+            <fieldset class ="reservationsContainer">
+                <legend>Your reserved cards</legend>
+                <p>Be sure to contact your seller with the provided email in order to finish your purchase in-person.</p>
+                <div id = "reservedContainer">
+                </div>
+            </fieldset>
+            <fieldset class ="listingsContainer">
+                <legend>Your card listings</legend>
+                <p>These are your currently active listings. </p>
+                <p><b>Remember to mark a listing as Terminated if the trading has taken place or if you decided to remove the offer.</b></p>
+                <div id = "listedContainer">
+                </div>
+            </fieldset>
+            <fieldset class ="terminatedContainer">
+                <legend>Completed transactions</legend>
+                <p>A summary of your terminated transactions.<p>
+                <div id = "terminatedContainer">
+                </div>
+            </fieldset>
+        </div>
+
+        <div id = "reservationsContainer">
+        </div>
+
+<!-- Scripts>--------------------------------------------------------------------------------->
+        <script src="./js/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/transactions.js"></script>
+    </body>
+</html>   

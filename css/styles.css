@@ -1,0 +1,195 @@
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 15px;
+    color: #4F545F;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e6;
+}
+
+h1{
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+h3{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0;
+    padding: 5px;
+    color: black;
+}
+
+fieldset{
+    border: 10px ridge #562611;
+    margin: 25px;
+    padding: 20px;
+    color: black;
+}
+
+legend{
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+table {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 10px groove #562611;
+/*    border-bottom: 10px solid #562611;*/
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+ }
+
+th, td {
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+th {
+    background: #c05426;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+td:hover {
+    color: black;
+    background: #ffd699;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol, li{
+    list-style-type: none;
+}
+
+select{
+    font-size: 2em;
+}
+
+.errorMessage{
+    font-size: 12px;
+    color: red;
+}
+
+.hideElement{
+    display : none;
+}
+
+#listContainer{
+    border: 1px solid #00cccc;
+    width: 40%;
+    margin: auto;
+}
+
+#dropdownMenuContainer{
+    width: 35%;
+    margin: auto;
+}
+
+.card{
+    width: 250px;
+    height: 349px;
+}
+
+.listing{
+    width: 200px;
+    height: 280px;
+}
+
+.filterContainer
+{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #3d3d3d;
+    overflow: hidden;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#menu>li{
+    float:left;
+    padding:20px;
+}
+
+#menu>li:hover{
+    background-color: #1a1a1a;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons{
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    border: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background: #562611;
+    border: ridge; 
+}
+
+.buttons:hover{
+    cursor: pointer;
+    border-radius:8px;
+    background: #c05426
+
+}
+
+.member{
+    font-family: verdana;
+    color: black;
+    background: #efd8b6;
+    border: 1px solid #eee;
+    padding: 5px;
+    margin: 25px;
+    border-collapse: collapse;
+}
+
+.member>h4{
+    font-size: 20px;
+}
+
+.member:hover{
+    background: #efd8b6;
+    background-color: #efd8b6;
+}
+
+city{
+    margin: 25px;
+    font-size: 25px;
+    color: gray;
+}
+
+h2{
+    margin: 25px;
+    color: #704e13;
+}
+
+.info{
+    margin: 25px;
+}
+
+user{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: verdana;
+	margin: 30px;
+	
+}
